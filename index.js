@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+/*npm install command in the current folder (MaCOS)*/
+
 const execSync = require('child_process').execSync;
 const crypto = require('crypto');
 const fs = require('fs');
